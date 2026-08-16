@@ -1,0 +1,13 @@
+interface:
+  display_name: 认知观点生成器
+  short_description: 从新闻事实中提炼普通人容易忽略、但经得起推敲的认知观点
+  default_prompt: 使用 $extract-news-insights 分析我提供的新闻、热点或社会现象；如果还没有材料，只提示我发送链接、正文、截图或事件名称。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
